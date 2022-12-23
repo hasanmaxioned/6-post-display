@@ -110,9 +110,39 @@ li {
 
 ul.data-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.onload-btn.hide-btn { display: none; }
+
+li.user-list { width: 48%; }
+
+.user-details {
+  height: 150px;
+  padding: 10px 16px;
+  margin: 10px 0;
+  background: #659dbd;
+  color: #fff;
+}
+
+.user-details p { padding: 10px 0; }
+
+.user-details h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.onload-btn {
+  padding: 14px 20px;
+  margin: 20px auto;
+  display: block;
+  background: #6a9cbc;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 /*=================================
   main styling ends here
 =================================*/ 
