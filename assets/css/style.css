@@ -103,52 +103,16 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
 
-
-
-
-
-
-
+ul.data-list {
+  display: flex;
+  flex-direction: column;
+}
 
 /*=================================
   main styling ends here
-=================================*/
-
-/*=================================
-  footer styling starts here
 =================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
